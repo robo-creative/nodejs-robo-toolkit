@@ -1,0 +1,1 @@
+browserify index.js  --standalone robo | uglifyjs --compress --mangle  > build/js/robo-toolkit.min.js
